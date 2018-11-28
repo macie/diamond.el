@@ -27,3 +27,7 @@ before_script:
   - emacs --version
 script:
   - make test
+
+after_success:
+  # Upload coverage
+  - bash <(curl -s https://codecov.io/bash)

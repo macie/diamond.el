@@ -7,4 +7,5 @@
 (source melpa-stable)
 
 (development 
-  (depends-on "ert-runner"))
+  (depends-on "ert-runner")
+  (depends-on "undercover"))
